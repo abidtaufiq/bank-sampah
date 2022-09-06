@@ -42,7 +42,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`nia`, `nama`, `telepon`, `email`, `password`, `level`) VALUES
-('ADM171201', 'Arif trian Nugroho ', '085617287718', 'ariftrian@gmail.com', 'admin123', 'Master-admin');
+('admin123', 'administrator', '081222333123', 'admin@gmail.com', 'admin123', 'Master-admin');
 
 -- --------------------------------------------------------
 
