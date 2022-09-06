@@ -1,0 +1,159 @@
+/*navbar*/
+
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+header {
+  background: #262626;
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 5px solid #abfc35;
+}::-webkit-scrollbar{
+  width: 6px;  
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#262626, #9be729);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+  background-color: #262626;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  font-family:Raleway;
+  margin-top:-5px;
+  font-size: 18px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #abfc35;
+  transition: 0.5s;
+}
+
+#logo {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 50px;
+  background: url(../img/img-local/logo.png) no-repeat center;
+  display: block;
+  margin-top:13px;
+}
+
+#logo_f {
+  float: left;
+  background: url(../img/img-local/logo.png) no-repeat center;
+  display: block;
+  margin-top:13px;
+}
+
+nav {
+  float: right;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*konten1*/
+.page-wrap {
+  font-family: 'Lato', sans-serif;
+}
+
+.header::after {
+  display: block;
+  position: fixed;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("../img/img-local/sample.jpg"); 
+  background-size: cover;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: relative;
+}
+
+
+.center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);"
+}
+
+.btn{
+  background:#8cd91a;
+  width:200px;
+  height: 45px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:30px;
+  color: #fff;
+
+  margin-top:15px;
+  margin-bottom:20px;
+  margin-left:16px;
+  float: left;
+  font-weight:600;
+  font-size:16px;
+}
+
+.btn:hover{
+  background:#9be729; 
+  color: #fff;
+}
+
+#btn2{
+  float:left;
+  background:#9be729;
+  width:200px;
+  height: 45px;  
+  padding-top:10px;
+  padding-bottom:10px;
+  color: #fff;
+  border-radius:30px;
+  
+  margin-top:15px;
+  margin-left:10px;
+  font-weight:600;
+  font-size:16px;
+}
+
+#btn2:hover{ 
+background:#8cd91a;
+}
+
+.box-1 h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+  color: #fff;
+}
+
+.box-1 p{
+  text-align: center;
+  font-family: raleway;
+  color: #fff;
+  font-size: 20px;  
+}
+

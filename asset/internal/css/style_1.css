@@ -1,0 +1,96 @@
+/* form_login */
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/img-local/bg.jpg);
+	font-family: sans-serif;
+}
+
+.loginBox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	min-height: 200px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-sizing: border-box;	
+}
+
+.user{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+}
+
+h1{
+	font-family: Montserrat;
+	margin: 0;
+	padding: 0 0 20px;
+	color: #262626;
+	text-align: center;
+}
+
+.loginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+	border: none;
+	border-bottom: 2px solid #262626;
+	outline: none;
+	height: 40px;
+	color: #262626;
+	background: transparent;
+	font-size: 16px;
+	padding-left: 20px;
+	box-sizing: border-box; 
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus{
+	border-bottom: 2px solid #9be729;
+}
+
+.inputBox{
+	position: relative;
+}
+
+.inputBox span {
+	position: absolute;
+	top: 10px;
+	color: #262626;
+}
+
+.loginBox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	background: #8cd91a;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: raleway;
+	-webkit-transition:all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.loginBox input[type="submit"]:hover{
+	background: #9be729;
+}
+
+.loginBox a{
+	color: #262626;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: raleway;
+	padding-left: 80px;
+}
+

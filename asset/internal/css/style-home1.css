@@ -1,0 +1,103 @@
+/*navbar*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+header {
+	background: #262626;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 5px solid #abfc35;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	font-family:Raleway;
+	margin-top:-15px;
+	font-size: 18px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #abfc35;
+	transition: 0.5s;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 50px;
+	background: url(../img/img-local/logo.png) no-repeat center;
+	display: block;
+	margin-top:13px;
+}
+
+#logo_f {
+	float: left;
+	background: url(../img/img-local/logo.png) no-repeat center;
+	display: block;
+	margin-top:13px;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menu-icon {
+	background: url(../img/img-local/menu-icon.png) no-repeat center;
+	display: hidden;
+	width: 32px;
+	height: 32px;
+}
+
+@media only screen and (max-width : 640px) {
+
+ header {
+ position: absolute;
+ }
+
+ #menu-icon {
+ display:inline-block;
+ margin-right: 30px;
+ }
+
+ nav ul, nav:active ul { 
+ display: none;
+ position: absolute;
+ padding: 20px;
+ background: #c5c5c5;
+ right: 10px;
+ top: 65px;
+ width: 35%;
+ }
+
+ nav:hover ul {
+ display: block;
+ }
+ 
+ nav li {
+ text-align: center;
+ width: 100%;
+ padding: 15px 0;
+ margin: 0;
+ }
+
+
+
